@@ -1,5 +1,4 @@
 import { useState } from "react";
-import MovieList from "./MovieList";
 
 function ListBox({ children }) {
   const [isOpen1, setIsOpen1] = useState(true);
